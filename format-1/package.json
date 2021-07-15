@@ -1,7 +1,7 @@
 {
         "name": "touch-1",
         "version": "1.0.0",
-        "description": "",
+        "description": "1",
         "main": "index.js",
         "scripts": {
                 "style:fix": "npx prettier --write ."
