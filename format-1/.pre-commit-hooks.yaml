@@ -4,5 +4,5 @@ repos:
                   - id: style_fix
                     name: Style Fix
                     description: This hook fixes styling.
-                    entry: bash -c '(cd format-1; npm run style:fix)' --
+                    entry: bash -c '(cd format-1; npm run style:fix) && git add -A' --
                     language: system
