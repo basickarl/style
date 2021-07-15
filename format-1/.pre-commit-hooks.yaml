@@ -1,11 +1,6 @@
 repos:
         - repo: local
           hooks:
-                  - id: herro_id
-                    name: Herro Name
-                    description: This hook says herro.
-                    entry: bash -c 'echo "herro echo"' --
-                    language: system
                   - id: style_fix
                     name: Style Fix
                     description: This hook fixes styling.
