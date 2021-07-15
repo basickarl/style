@@ -1,8 +1,9 @@
 {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
-        "prettier.configPath": "~/.prettierrc"
-        // "prettier.semi": true,
-        // "prettier.singleQuote": true,
-        // "prettier.tabWidth": 8,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.configPath": ".vscode/.prettierrc",
+  "prettier.ignorePath": ".vscode/.prettierignore"
+  // "prettier.semi": true,
+  // "prettier.singleQuote": true,
+  // "prettier.tabWidth": 8,
 }

@@ -8,7 +8,7 @@
     },
     "pre-commit": {
         "run": [
-            "style:fix"
+                "style:fix"
         ]
     },
     "author": "",
