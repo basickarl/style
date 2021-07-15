@@ -6,15 +6,9 @@
     "scripts": {
         "style:fix": "npx prettier --write ."
     },
-    "pre-commit": {
-        "run": [
-            "style:fix"
-        ]
-    },
-    "author": "",
+           "author": "",
     "license": "ISC",
     "devDependencies": {
-        "pre-commit": "1.2.2",
         "prettier": "2.3.2"
     }
 }

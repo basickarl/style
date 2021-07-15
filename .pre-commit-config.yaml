@@ -1,0 +1,19 @@
+repos:
+  - repo: local
+    hooks:
+      - id: local-pre-commit-hooks
+        name: Local Pre-Commit Hooks
+        entry: bash -c 'if [ -f .personal/.local-pre-commit-checks.yaml ]; then exec pre-commit run --config .personal/.local-pre-commit-checks.yaml --files "$@"; fi' --
+        language: system
+  - repo: local
+    hooks:
+      - id: format-1
+        name: Format-1
+        entry: bash -c 'if [ -f format-1/.pre-commit-hooks.yaml ]; then exec pre-commit run --config format-1/.pre-commit-hooks.yaml --files "$@"; fi' --
+        language: system
+  # - repo: local
+  #   hooks:
+  #     - id: format-1
+  #       name: Format-1
+  #       entry: bash -c 'test -f format-1/.pre-commit-hooks.yaml && echo "file exists."' --
+  #       language: system
